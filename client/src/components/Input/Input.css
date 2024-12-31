@@ -1,0 +1,100 @@
+
+.form {
+  display: flex;
+  border-top: 2px solid #f2f1ef;
+  align-items: center;
+}
+
+.input {
+  border: none;
+  padding: 5px 10px; /* Maintain padding for a consistent look */
+  width: 75%; 
+  font-size: 1em;
+  height: 40px; /* Set explicit height */
+  border-radius: 6px; 
+  background-color: #f2f1ef;
+  font-family: cursive;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+.sendButton {
+  color: #9B7EBD !important;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #D4BEE4, #D4BEE4);
+  padding: 0 10px; /* Adjust padding to maintain height */
+  display: inline-block;
+  border: none;
+  width: 20%;
+  font-size: 1em; /* Ensure font size matches */
+  height: 40px; /* Match height with input */
+  border-radius: 00px; /* Match border radius with input */
+  /* transition: background 0.3s ease; */
+}
+
+.sendButton:hover {
+  /* background: linear-gradient(135deg, #c544d3, #A52895); */
+  transform: scale(1.05);
+}
+
+.dateInput {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #9B7EBD;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 16px;
+  font-family: cursive;
+}
+
+.dateInput:focus {
+  border-color: #9B7EBD;
+  outline: none;
+  background-color:#9B7EBD ;
+
+}
+
+
+.datePickerContainer {
+  display: flex;
+  align-items: center;
+}
+
+.dateIcon {
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 1.5rem; /* Adjust icon size */
+  color: #9B7EBD; /* Icon color */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.datePicker {
+  border: 1px solid #9B7EBD;
+  border-radius: 5px;
+  padding: 5px;
+  width: 120px; /* Adjust width as needed */
+  font-size: 1rem; /* Adjust font size */
+  margin: 10px;
+  display: none; /* Initially hidden */
+  font-family: cursive;
+}
+
+.emojiPickerContainer {
+  position: absolute;
+  bottom: 50px; /* Adjust based on your layout */
+  right: 10px;
+  z-index: 1000;
+  background: 9B7EBD;
+  box-shadow: 0px 4px 8px rgba(191, 211, 12, 0.2);
+  border-radius: 8px;
+}
+
+.emojiIcon {
+  color: #9B7EBD;
+  font-size: 1.5em;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 10px;
+}

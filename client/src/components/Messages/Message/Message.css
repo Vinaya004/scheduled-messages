@@ -1,0 +1,155 @@
+
+.messageBox {
+  background: #3C3F41;
+  border-radius: 20px 20px 20px 0px;
+  padding: 10px 20px;
+  color: white;
+  display: inline-block;
+  max-width: 80%;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.messageText {
+  width: 100%;
+  letter-spacing: 0;
+  float: left;
+  font-size: 1.1em;
+  word-wrap: break-word;
+  font-family: lucida sans;
+}
+
+.messageText img {
+  vertical-align: middle;
+}
+
+.messageContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 5%;
+  margin-top: 3px;
+}
+
+.sentText {
+  display: flex;
+  align-items: center;
+  font-family: Helvetica;
+  color: #836187;
+  letter-spacing: 0.3px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}
+
+.colorWhite {
+  color: white;
+}
+
+.colorDark {
+  color: #000000;
+}
+
+.backgroundBlue {
+  background: #a2519a;
+}
+
+.backgroundLight {
+  background: #7776B3;
+}
+
+.messageBox {
+  position: relative; 
+  padding-right: 20px; 
+}
+
+.messageBox {
+  background: #3C3F41;
+  border-radius: 20px 20px 20px 0px;
+  padding: 10px 20px;
+  color: white;
+  display: inline-block;
+  max-width: 80%;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  position: relative; /* Position for time display */
+  padding-right: 40px; /* Extra space for time */
+}
+
+.messageText {
+  width: 100%;
+  letter-spacing: 0;
+  float: left;
+  font-size: 1.1em;
+  word-wrap: break-word;
+}
+
+.messageText img {
+  vertical-align: middle;
+}
+
+.messageContainer {
+  display: flex;
+  justify-content: flex-end; /* Align message to the right for current user */
+  padding: 0 5%;
+  margin-top: 3px;
+}
+
+.sentText {
+  display: flex;
+  align-items: center;
+  font-family: cursive;
+  color: #f2f1ef;
+  letter-spacing: 0.3px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.justifyStart {
+  justify-content: flex-start; /* Align message to the left for others */
+}
+
+.justifyEnd {
+  justify-content: flex-end; /* Align message to the right for current user */
+}
+
+.colorWhite {
+  color: white;
+}
+
+.colorDark {
+  color: white;
+}
+
+.backgroundBlue {
+  background: #D4BEE4;
+}
+
+.backgroundLight {
+  background: #7776B3;
+}
+
+/* Style for message time */
+.messageTime {
+  font-size: 0.6em; /* Smaller font size */
+  color: rgb(92, 83, 83); /* Grey color */
+  position: absolute; /* Position it in the bottom right */
+  bottom: 5px; /* Adjust this to fit your layout */
+  right: 10px; /* Adjust this to fit your layout */
+}
